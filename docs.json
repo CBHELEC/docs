@@ -67,14 +67,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Support Server",
+        "href": "https://discord.gg/cAXp5DSMr4"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Bot Invite",
+      "href": "https://discord.com/oauth2/authorize?client_id=1322305662973116486"
     }
   },
   "contextual": {

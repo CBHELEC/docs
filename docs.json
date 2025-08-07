@@ -3,9 +3,9 @@
     "theme": "maple",
     "name": "Tracker Docs",
     "colors": {
-        "primary": "#16A34A",
-        "light": "#07C983",
-        "dark": "#15803D"
+        "primary": "#205284",
+        "light": "#3879BA",
+        "dark": "#1F3347"
     },
     "favicon": "/favicon.svg",
     "navigation": {

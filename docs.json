@@ -1,7 +1,9 @@
 {
     "$schema": "https://mintlify.com/docs.json",
     "theme": "maple",
-    "customCss": ["./style.css"],
+    "styling": {
+      "customCss": ["/style.css"]
+    },
     "name": "Tracker Docs",
     "colors": {
         "primary": "#205284",

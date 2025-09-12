@@ -1,6 +1,6 @@
-#navbar .nav-logo img {
-  height: 120px !important; /* Adjust height as needed */
-  width: auto !important;
+#navbar .nav-logo {
+    width: 150px;
+    height: auto;
 }
 
 /* For mobile */

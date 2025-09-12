@@ -1,11 +1,11 @@
-#navbar .nav-logo {
-    width: 150px;
+.nav-logo {
+    width: 250px;
     height: auto;
 }
 
 /* For mobile */
 @media (max-width: 768px) {
-  #navbar .nav-logo img {
+  .nav-logo img {
     height: 80px !important;
   }
 }

@@ -5,26 +5,20 @@ description: "What is skullboard? Why does it exist?"
 
 The skullboard module allows your server to highlight and remember those funny, out of context messages and moments which are the best.
 
-Skullboard is essentially a reskinned starboard, if you know what that is. If you don't, it's basically meant to forward the memorable, to a channel. Skullboard is just for when its stupid and out of context and you want to frame it.
+Skullboard is essentially a reskinned starboard, if you know what that is. If you don't, it's basically meant to forward the memorable, or pretty much any message to a channel to , to a channel. Skullboard is just for when its stupid and out of context and you want to frame it.
 
 Skullboard is activated when any message in a channel Tracker has access to gets 3 reactions with a '💀' emoji. It then, if configured, sends it to the skullboard channel.
 
 In summary, here's how skullboard is triggered:
 
-{% stepper %} {% step %}
-
-### Send a message
-
-{% endstep %}
-
-{% step %}
-
-### 3x 💀 reactions on thus message
-
-{% endstep %}
-
-{% step %}
-
-### Tracker forwards to the skullboard channel
-
-{% endstep %} {% endstepper %}
+<Steps>
+  <Step title="Send a message" icon="paper-plane" iconType="solid" stepNumber={1} titleSize="h2">
+    
+  </Step>
+  <Step title="Get 3x 💀 reactions on that message" icon="face-smile" iconType="regular" stepNumber={2} titleSize="h2">
+    
+  </Step>
+  <Step title="Tracker forwards to the skullboard channel" icon="forward" iconType="solid" stepNumber={3} titleSize="h2">
+    
+  </Step>
+</Steps>

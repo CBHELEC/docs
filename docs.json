@@ -32,7 +32,8 @@
                 "pages": [
                     "configuration/permroles",
                     "configuration/skullboard",
-                    "configuration/toggles"
+                    "configuration/toggles",
+                    "configuration/verification"
                 ]
             },
             {
@@ -45,7 +46,8 @@
                     "features/tbdb",
                     "features/statbadgebars",
                     "features/interact",
-                    "features/fun"
+                    "features/fun",
+                    "features/verification"
                 ]
             },
             {

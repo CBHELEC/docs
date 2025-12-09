@@ -53,7 +53,8 @@
             {
                 "group": "FAQ / Support",
                 "pages": [
-                    "support/support"
+                    "support/support",
+                    "support/downtime"
                 ]
             }
 ]

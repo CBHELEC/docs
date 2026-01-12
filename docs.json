@@ -12,53 +12,54 @@
     },
     "favicon": "/favicon.svg",
     "navigation": {
-        "groups": [
-            {
-                "group": "Getting Started",
-                "pages": [
-                    "intro",
-                    "getting-started"
-                ]
-            },
-            {
-                "group": "Dashboard",
-                "pages": [
-                    "dashboard/access",
-                    "dashboard/use"
-                ]
-            },
-            {
-                "group": "Configuration",
-                "pages": [
-                    "configuration/permroles",
-                    "configuration/skullboard",
-                    "configuration/toggles",
-                    "configuration/verification"
-                ]
-            },
-            {
-                "group": "Features",
-                "pages": [
-                    "features/skullboard",
-                    "features/permroles",
-                    "features/toggles",
-                    "features/coderecognition",
-                    "features/tbdb",
-                    "features/statbadgebars",
-                    "features/interact",
-                    "features/fun",
-                    "features/verification"
-                ]
-            },
-            {
-                "group": "FAQ / Support",
-                "pages": [
-                    "support/support",
-                    "support/downtime"
-                ]
-            }
-]
-},
+      "groups": [
+        {
+          "group": "Getting Started",
+          "pages": [
+            "intro",
+            "getting-started"
+          ]
+        },
+        {
+          "group": "Dashboard",
+          "pages": [
+            "dashboard/access",
+            "dashboard/use"
+          ]
+        },
+        {
+          "group": "Configuration",
+          "pages": [
+            "configuration/code-detection",
+            "configuration/permroles",
+            "configuration/skullboard",
+            "configuration/toggles",
+            "configuration/verification"
+          ]
+        },
+        {
+          "group": "Features",
+          "pages": [
+            "features/skullboard",
+            "features/permroles",
+            "features/toggles",
+            "features/coderecognition",
+            "features/tbdb",
+            "features/statbadgebars",
+            "features/interact",
+            "features/fun",
+            "features/verification"
+          ]
+        },
+        {
+          "group": "FAQ / Support",
+          "pages": [
+            "support/support",
+            "support/downtime"
+          ]
+        }
+      ]
+    },
     "logo": {
         "light": "/logo/light.svg",
         "dark": "/logo/dark.svg"

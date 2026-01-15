@@ -82,5 +82,17 @@
             "x": "https://x.com/trackerbot_",
             "website": "https://trackerbot.xyz"
         }
+    },
+  
+    "seo": {
+      "indexing": "all"
+    },
+  
+    "errors": {
+      "404": {
+        "redirect": false,
+        "title": "Uh-Oh",
+        "description": "Welp, it looks like this page grew some legs. Maybe try another?"
+      }
     }
 }

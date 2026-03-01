@@ -1,0 +1,71 @@
+# Hide and Find Loop
+
+This is the main gameplay cycle.
+
+![Placeholder - Hide and Find Loop Diagram](./images/placeholder-hide-find-loop.png)
+
+## Hiding a Cache
+
+Use `/discaching hide`.
+
+### What you need
+
+- A container in inventory.
+- Required hide details:
+  - Name
+  - Description
+  - Location
+  - Difficulty
+  - Terrain
+  - Container choice
+
+### Location rules
+
+- You can select location from map flow.
+- If another published cache is too close, placement is blocked.
+- If selected location is too far from your current position, the game prompts you to travel there first.
+
+### Container and logbook behavior
+
+- Containers can have size/color/log modifiers.
+- If container has no logbook, you are prompted to choose one.
+- Larger containers can include an optional writing instrument.
+
+### Publish flow
+
+- Your hide is saved as draft/unpublished first.
+- You submit for review.
+- It becomes playable only after approval.
+
+![Placeholder - Hide Setup UI](./images/placeholder-hide-setup-ui.png)
+
+## Finding a Cache
+
+Use `/discaching find`.
+
+### Find checks
+
+- Cache must exist and be published.
+- You cannot find your own cache.
+- You must be near cache (about 0.1 km / 100m), or already arrive via travel state.
+- For a Found It log, you need a usable writing instrument unless the cache already has one.
+
+### Log types
+
+- Found It
+- Did Not Find
+- Write Note
+
+Favorite point is only relevant for a Found It log.
+
+### First To Find (FTF)
+
+- FTF is awarded when you are the first Found It log on that cache.
+
+### Extra interactions after finding
+
+On eligible cache sizes, you can exchange:
+- Swag
+- Stickers
+- Trackables
+

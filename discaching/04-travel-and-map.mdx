@@ -1,0 +1,53 @@
+# Travel and Map
+
+Travel controls where you can interact with caches.
+
+![Placeholder - World Map Screenshot](./images/placeholder-world-map.png)
+
+## Starting Travel
+
+Use `/discaching travel` in two ways:
+
+1. Without cache ID: opens world map picker.
+2. With cache ID: routes directly to that cache.
+
+If already traveling, you must wait or cancel first.
+
+## Vehicle System
+
+Every vehicle has:
+- Speed (km/h)
+- Maximum distance per trip or remaining usage
+
+Examples:
+- Bike: 35 km/h, 100 km range
+- Sedan: 95 km/h, 7500 km range
+- Truck: 85 km/h, 10000 km range
+- Tickets are one-use travel items with max distance per ticket
+
+![Placeholder - Vehicle Selection UI](./images/placeholder-vehicle-selection.png)
+
+## Partial Travel
+
+If destination is farther than your selected vehicle can cover:
+- You travel partway
+- Remaining distance is shown
+- Travel state stores a partial target
+
+## Arrival and Position
+
+Use `/discaching location` to check:
+- Current coordinates
+- Whether you are traveling
+- ETA
+
+Use `/discaching distance_to_cache [cache_id]` for route checks.
+
+## Map controls
+
+Map view supports:
+- Direction buttons
+- Step size toggle
+- Jump-to-location dropdown
+- Confirm travel to selected coordinates
+

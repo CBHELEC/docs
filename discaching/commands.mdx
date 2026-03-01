@@ -1,52 +1,66 @@
-# Command Reference
+---
+title: "Command Reference"
+---
 
-This is the practical command map for players.
+A list of all commands for Discaching.
 
-![Placeholder - Command Categories Graphic](./images/placeholder-command-categories.png)
+<Frame>
+  ![Commands Ascii](/images/commands-ascii.png)
+</Frame>
 
 ## General
 
 - `/discaching help` - Open help menu.
-- `/discaching profile` - View your stats and progress.
-- `/discaching inventory` - Browse inventory categories.
-- `/discaching balance` - View current G$.
-- `/discaching daily` - Claim daily G$ reward (G$25).
-- `/discaching quests` - View daily quests and claim quest crates.
+- `/discaching profile` - View your stats, stickers and achievements.
+- `/discaching inventory` - Browse your inventory.
+- `/discaching balance` - View your current G\$ balance.
+- `/discaching daily` - Claim your daily reward (G\$25).
+- `/discaching quests` - View your daily quests and claim quest rewards.
 - `/discaching shop` - Open shop and buy/sell items.
 - `/discaching leaderboard` - View top players by category.
-- `/discaching gift [user] [amount]` - Send G$ to another player.
+- `/discaching gift [user] [amount]` - Send G\$ to another player.
 - `/discaching open [Vote Crate|Quest Crate] [amount]` - Open crates.
 - `/discaching credits` - Project credits.
 
 ## Caching Gameplay
 
-- `/discaching hide` - Start or continue hide setup.
+- `/discaching hide` - Start or continue hiding a cache.
 - `/discaching find` - Log found/DNF/note on a cache.
-- `/discaching nearby` - Show nearest caches.
+- `/discaching nearby` - Show 5 nearest unfound caches.
 - `/discaching cache_info [cache_id]` - Detailed cache info.
 - `/discaching cache_finds [cache_id]` - View cache logs.
-- `/discaching locations [Rural|City]` - Region list and flavor locations.
+- `/discaching locations [Rural|City]` - List locations and descriptions.
 
 ## Travel and Position
 
-- `/discaching travel [cache_id]` - Travel directly, or open map if omitted.
+- `/discaching travel [cache_id]` - Travel to a cache, or open the map to navigate.
 - `/discaching travel cancel_current:true` - Cancel active travel.
 - `/discaching location` - Current coordinates and travel status.
 - `/discaching map` - Map with your location and published caches.
-- `/discaching distance_to_cache [cache_id]` - Distance and estimate.
+- `/discaching distance_to_cache [cache_id]` - Distance and time estimate to a cache.
 
 ## Trackables
 
-- `/discaching trackable_activate [private_code]`
-- `/discaching trackable_view [public_code]`
-- `/discaching trackable_grab [public_code]`
-- `/discaching trackable_discover [private_code] [log]`
+- `/discaching trackable_activate [private_code]` - Activate a trackable you own.
+- `/discaching trackable_view [public_code]` - View info for a trackable.
+- `/discaching trackable_grab [public_code]` - Grab an owned trackable from a cache.
+- `/discaching trackable_discover [private_code] [log]` - Discover a shared trackable.
 
-![Placeholder - Slash Command UI Example](./images/placeholder-slash-command-ui.png)
+## Example Images
+
+<Frame>
+  ![Command Noarg](/images/command-noarg.png)
+</Frame>
+
+<Frame>
+  ![Command Arg](/images/command-arg.png)
+</Frame>
+
+<Info>
+  Shown above are examples of commands with no arguments and arguments. Optional arguments will need to be selected manually from the options shown above the command.
+</Info>
 
 ## Notes
 
-- Most game commands are ephemeral responses.
+- Most game commands are ephemeral - only you can see it.
 - Cache IDs support autocomplete in many commands.
-- Admin-only commands are in `/discaching_admin`.
-

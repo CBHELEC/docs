@@ -61,7 +61,15 @@
         {
           "group": "Discaching",
           "pages": [
-            "intro"
+            "discaching/index",
+            "discaching/getting-started",
+            "discaching/commands",
+            "discaching/hide-find",
+            "discaching/travel-map",
+            "discaching/shop-items",
+            "discaching/trackables",
+            "discaching/progression",
+            "discaching/tips-faqs"
           ]
         }
       ]

@@ -57,6 +57,12 @@
             "support/support",
             "support/downtime"
           ]
+        },
+        {
+          "group": "Discaching",
+          "pages": [
+            "intro"
+          ]
         }
       ]
     },

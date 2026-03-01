@@ -1,0 +1,41 @@
+# Trackables
+
+Trackables are collectible objects that can be activated, moved, and discovered.
+
+![Placeholder - Trackable Card Example](./images/placeholder-trackable-card.png)
+
+## Codes
+
+Each trackable has:
+- Public code (share-safe)
+- Private code (owner-sensitive)
+
+## Main actions
+
+- Activate: `/discaching trackable_activate [private_code]`
+- View details: `/discaching trackable_view [public_code]`
+- Discover: `/discaching trackable_discover [private_code] [log]`
+- Grab from nearby cache: `/discaching trackable_grab [public_code]`
+
+## Discovery rules
+
+- You cannot discover your own trackable.
+- Trackable must be activated first.
+- Same user cannot discover same trackable twice.
+
+## Moving trackables
+
+Trackables can move through cache swag exchange.
+The game tracks total travel distance across cache-to-cache moves.
+
+## Ownership and carrying states
+
+A trackable may be:
+- Owned by a user
+- Currently held by a user
+- Sitting in a cache
+
+These states affect whether you can place/grab it.
+
+![Placeholder - Trackable Journey Timeline](./images/placeholder-trackable-journey.png)
+

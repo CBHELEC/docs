@@ -14,8 +14,9 @@ Use `/discaching travel` in two ways:
 
 1. Without cache ID: opens world map picker.
 2. With cache ID: routes directly to that cache.
+3. With cancel_current: cancels active travel.
 
-If already traveling, you must wait or cancel first.
+If already travelling, you must wait or cancel first.
 
 ## Vehicle System
 
@@ -31,13 +32,34 @@ Examples:
 - Truck: 85 km/h, 10000 km range
 - Tickets are one-use travel items with max distance per ticket
 
-![Placeholder - Vehicle Selection UI](./images/placeholder-vehicle-selection.png)
+<Tabs>
+  <Tab title="Select Location">
+    <Frame>
+      ![Select Location](/images/travel/select_location.png)
+    </Frame>
+  </Tab>
+  <Tab title="Select Vehicle">
+    <Frame>
+      ![Select Vehicle](/images/travel/select_vehicle.png)
+    </Frame>
+  </Tab>
+  <Tab title="Confirm Travel">
+    <Frame>
+      ![Confirm](/images/travel/confirm.png)
+    </Frame>
+  </Tab>
+  <Tab title="Cancel Travel">
+    <Frame>
+      ![Cancel](/images/travel/cancel.png)
+    </Frame>
+  </Tab>
+</Tabs>
 
 ## Partial Travel
 
 If destination is farther than your selected vehicle can cover:
 
-- You travel partway
+- You travel part of the way
 - Remaining distance is shown
 - Travel state stores a partial target
 
@@ -47,7 +69,7 @@ Use `/discaching location` to check:
 
 - Current coordinates
 - Whether you are traveling
-- ETA
+- Estimated arrival time
 
 Use `/discaching distance_to_cache [cache_id]` for route checks.
 

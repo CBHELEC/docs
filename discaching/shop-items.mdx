@@ -2,17 +2,17 @@
 title: "Shop and Items"
 ---
 
-Use `/discaching shop` to buy and sell game items.
-
 <Frame>
   ![S](/images/s.png)
 </Frame>
+
+Use `/discaching shop` to buy and sell items.
 
 ## Currency
 
 - Main currency: **G\$**
 - Starting balance: **G\$100**
-- Daily gain: **G\$25** via `/discaching daily`
+- Daily reward: **G\$25** via `/discaching daily`
 
 ## Shop Categories
 
@@ -28,7 +28,7 @@ Use `/discaching shop` to buy and sell game items.
 
 ### Writing Instruments
 
-Used for Found It logs unless cache already has one. Each instrument has use count.
+Used for '`Found It`' logs unless cache already has one. Each instrument has use count.
 
 ### Containers
 
@@ -40,19 +40,53 @@ Used for travel speed and range. Some items have persistent usage (vehicles), ot
 
 ### Trackables
 
-Purchased as item type that generates a public/private code pair.
+Can be dropped in caches, discovered / shared, and gain distance travelled.
 
 ### Stickers and Swag
 
-Used for collecting, placing, and cache exchange interactions.
+Used for collecting, placing, and cache swag exchanging.
 
-![Placeholder - Product Builder UI](./images/placeholder-product-builder.png)
+<Tabs>
+  <Tab title="Landing">
+    <Frame>
+      ![Landing](/images/shop/landing.png)
+    </Frame>
+  </Tab>
+  <Tab title="Item Selection">
+    <Frame>
+      ![Select](/images/shop/select.png)
+    </Frame>
+  </Tab>
+  <Tab title="Checkout">
+    <Frame>
+      ![Checkout](/images/shop/checkout.png)
+    </Frame>
+  </Tab>
+</Tabs>
 
 ## Selling Items
 
-- Sell flow is available from the shop UI.
-- Sale value is **50%** of item price (integer floor).
+- Selling is available from the shop UI.
+- Sale value is **50%** of item price.
 - You can sell inventory items and collectible stickers.
+
+<Tabs>
+  <Tab title="Landing">
+    <Frame>
+      ![Landing](/images/shop/landing.png)
+    </Frame>
+  </Tab>
+  <Tab title="Item Selection">
+    <Frame>
+      ![Sellselect](/images/shop/sellselect.png)
+    </Frame>
+  </Tab>
+  <Tab title="Confirm">
+    <Frame>
+      ![Sellconfirm](/images/shop/sellconfirm.png)
+    </Frame>
+  </Tab>
+</Tabs>
 
 ## Crates
 
@@ -65,4 +99,17 @@ Crates give:
 
 - Random money
 - Random items
-- Sometimes trackables (with generated codes)
+- Trackables
+
+<Tabs>
+  <Tab title="Vote Crates">
+    <Frame>
+      ![Voteopen](/images/quests/voteopen.png)
+    </Frame>
+  </Tab>
+  <Tab title="Quest Crates">
+    <Frame>
+      ![Questopen](/images/quests/questopen.png)
+    </Frame>
+  </Tab>
+</Tabs>

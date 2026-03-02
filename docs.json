@@ -54,7 +54,7 @@
         {
           "group": "FAQ / Support",
           "pages": [
-            "support/support",
+            "support",
             "support/downtime"
           ]
         },
@@ -108,5 +108,12 @@
         "title": "Uh-Oh",
         "description": "Welp, it looks like this page grew some legs. Maybe try another?"
       }
+    },
+
+  "integrations": {
+    "telemetry": {
+      "enabled": true
     }
+  }
+
 }

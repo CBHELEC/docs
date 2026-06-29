@@ -18,14 +18,16 @@
           "pages": [
             "index",
             "getting-started"
-          ]
+          ],
+          "icon": "hourglass-start"
         },
         {
           "group": "Dashboard",
           "pages": [
             "dashboard/access",
             "dashboard/use"
-          ]
+          ],
+          "icon": "cog"
         },
         {
           "group": "Configuration",
@@ -35,7 +37,8 @@
             "configuration/skullboard",
             "configuration/toggles",
             "configuration/verification"
-          ]
+          ],
+          "icon": "wrench"
         },
         {
           "group": "Features",
@@ -49,14 +52,16 @@
             "features/interact",
             "features/fun",
             "features/verification"
-          ]
+          ],
+          "icon": "clipboard-list-check"
         },
         {
           "group": "FAQ / Support",
           "pages": [
             "support",
             "support/downtime"
-          ]
+          ],
+          "icon": "user-question"
         },
         {
           "group": "Discaching",
@@ -70,7 +75,8 @@
             "discaching/trackables",
             "discaching/progression",
             "discaching/tips-faqs"
-          ]
+          ],
+          "icon": "gamepad"
         }
       ]
     },
